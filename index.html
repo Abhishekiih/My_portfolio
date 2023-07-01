@@ -2,11 +2,140 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
     <title>My Portfolio</title>
 </head>
 <body>
-    hello everyone
-    <p>radhe radhe</p>
+    <header>
+        <div class="navbar">
+        <img src="logo.jpg" alt="profilepicture">
+        <div class="topnav" id="myTopnav">
+            <a href="#Home" >Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Education">Education</a>
+            <a href="#Home">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="Home" class="home">
+            <div class="homeleft">
+                <h2>Hi There,<br>I'm Abhishek <span>Baghel</span></h2>
+                <p>I'm a <span>Frontend Web Developer.</span></p>
+                <br>
+                <p class="contact">
+                    <b>Contact me</b>
+                </p>
+                <br>
+                <div class="socialicons">
+                    <a href="https://www.linkedin.com/in/abhishek-baghel-08240b246" target="_blank"><img class="contactlogo" src="linkedin.png" alt=""></a>
+                    <a href="https://github.com/Abhishekiih" target="_blank"><img class="contactlogo" src="github.png" alt=""></a>
+                    <a href="https://www.facebook.com/profile.php?id=100029057014672&mibextid=ZbWKwL" target="_blank"><img class="contactlogo" src="fb.png" alt=""></a>
+                    <a href="https://instagram.com/abhishek.o1._?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img class="contactlogo" src="ig.png" alt=""></a>
+                    <a href="mailto:abhiibaghel1011@gmail.com" target="_blank"><img class="contactlogo" src="gmail.png" alt=""></a>
+                </div>
+            </div>
+            <div class="homeright">
+                <img src="muphoto1.jpg" alt="profilephoto" class="profilephoto">
+            </div>
+        </div>
+        <div id="About" class="about">
+            <div class="aboutphoto">
+                <img src="aboutmeimage.jpg" alt="profilepicture">
+            </div>
+            <div class="aboutme">
+                <h2>About me</h2>
+                <p>I am a Web Developer and I recently started to create and design the web pages currently living in Agra,India
+                    . I am a Computer Science Student pursuing B.Tech from GLA University , Mathura.</p>
+                <p>Please feel free to <a href="#Home">Contact</a> me if you need any further information or to discuss your ideas.</p>
+            </div>
+        </div>
+        <div  id="Skills" class="skills">
+            <h2>Skills</h2>
+            <table class="skillstable">
+                <tr class="skillsrow">
+                    <th class="skillscontainer"><img class="skillslogo" src="c.png" alt="">C</th>
+                    <th class="skillscontainer"><img class="skillslogo" src="python.png" alt="">Python</th>
+                    <th class="skillscontainer"><img class="skillslogo" src="java.png" alt="">Java</th>
+                </tr>
+                <tr class="skillsrow">
+                    <th class="skillscontainer"><img class="skillslogo" src="html.png" alt="">HTML5</th>
+                    <th class="skillscontainer"><img class="skillslogo" src="css.png" alt="">CSS3</th>
+                    <th class="skillscontainer"><img class="skillslogo" src="js.png" alt="">JavaScript</th>
+                </tr>
+                <tr class="skillsrow">
+                    <th class="skillscontainer"><img class="skillslogo" src="mysql.png" alt="">MySQL</th>
+                    <th class="skillscontainer"><img class="skillslogo" src="c++.png" alt="">C++</th>
+                    <th class="skillscontainer"><img class="skillslogo" src="git.png" alt="">GitHub</th>
+                </tr>
+            </table>
+        </div>
+        <div id="Education" class="education">
+            <h2><img class="startinglogo" src="educationlogo.png" alt=""> My <span> Education </span> </h2>
+            <div class="padhaai">
+                <div class="schoolphoto">
+                    <img class="buildingphoto" src="gla.png" alt="collegephoto">
+                </div>
+                <div class="aboutschool">
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <p>GLA University , Mathura</p>
+                    <h4>2021-2025 | Pursuing</h4>
+                </div>
+            </div>
+            <div class="padhaai">
+                <div class="schoolphoto">
+                    <img class="buildingphoto" src="avmd.png" alt="">
+                </div>
+                <div class="aboutschool">
+                    <h3>12th Grade</h3>
+                    <p>A.V.M.D Institute , Agra | CBSE</p>
+                    <h4>2021 | Completed</h4>
+                </div>
+            </div>
+            <div class="padhaai">
+                <div class="schoolphoto">
+                    <img class="buildingphoto" src="seemax (1).png" alt="">
+                </div>
+                <div class="aboutschool">
+                    <h3>10th Grade</h3>
+                    <p>Seemax International School , Agra | CBSE</p>
+                    <h4>2019 | Completed</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="box">
+                <h3>Abhishek's Portfolio</h3>
+                <p>Thanks for visiting my personal Portfolio
+                    website.Connect with me over Social platforms. <br> <br>
+                    Keep Rising and Growing 🚀.
+                </p>
+            </div>
+            <div class="box">
+                <h3>Contact info</h3> 
+                <p><a href="tel:9412608711" target="_blank">📞</a> +91 XXX-XXX-XXXX</p>
+                <p><a href="mailto:abhiibaghel1011@gmail.com" target="_blank">✉️</a> abhiibaghel1011@gmail.com</p>
+                <p><a href="https://maps.app.goo.gl/GZuXYDTtLm49bz3q7" target="_blank">🏠</a> Agra-282006,India</p>
+                <br>
+                <div class="footer-socialicons">
+                    <a href="https://www.linkedin.com/in/abhishek-baghel-08240b246" target="_blank"><img class="contactlogo" src="linkedin.png" alt=""></a>
+                    <a href="https://github.com/Abhishekiih" target="_blank"><img class="contactlogo" src="github.png" alt=""></a>
+                    <a href="https://www.facebook.com/profile.php?id=100029057014672&mibextid=ZbWKwL" target="_blank"><img class="contactlogo" src="fb.png" alt=""></a>
+                    <a href="https://instagram.com/abhishek.o1._?igshid=MzNlNGNkZWQ4Mg==" target="_blank"><img class="contactlogo" src="ig.png" alt=""></a>
+                    <a href="mailto:abhiibaghel1011@gmail.com" target="_blank"><img class="contactlogo" src="gmail.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <h2>Designed and Developed with ❤️ by <a href="https://www.linkedin.com/in/abhishek-baghel-08240b246" target="_blank">Abhishek Baghel</a></h2>
+    </div>
 </body>
 </html>
